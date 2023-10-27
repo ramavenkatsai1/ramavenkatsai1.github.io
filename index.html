@@ -456,14 +456,44 @@
         <h1 class="section-title text-center">Projects</h1>
 <div class="project-item">
     <h2 class="project-title">Dynamic Student Survey Form, Department Course Catalog</h2>
-    <h3 class="project-tech">Angular, JavaScript, AJAX, HTML, Java, Spring Boot, SQL, Docker, Kubernetes, AWS (S3, EC2, Elastic Beanstalk), Kafka</h3>
-    <ul class="project-desc">
-        <li>Developed a full-stack application using Angular for the front-end and Java with Spring Boot for the back-end.</li>
-        <li>Established a CI/CD pipeline for real-time updates. Enhanced project efficiency by implementing messaging streams with Kafka and containerizing the project with Docker and Kubernetes for deployment on Google Cloud Platform (GCP).</li>
-        <li>Boosted security by integrating Call Authentication technologies (SHAKEN, Diversion) and implemented OpenAPI Specification Development to facilitate efficient communication between client and server. Hosted the application on AWS S3, EC2, and Elastic Beanstalk.</li>
+    <h3 class="project-tech">Angular, AJAX, HTML, CSS, Python, Flask, SQL, SQL Server, Docker, Kubernetes, AWS (S3, EC2, Elastic Beanstalk), Kafka, WordPress</h3>
+    
+    <h4 class="project-subheading">Project Overview</h4>
+    <p>This project revolved around creating a dynamic student survey form and a department course catalog. It was aimed at improving the digital transformation efforts of the university department, making course selection and feedback seamless for students.</p>
+
+    <h4 class="project-subheading">Steps and Implementation</h4>
+    <ol class="project-desc">
+
+        <li><strong>Frontend Development with Angular:</strong> Designed a user-friendly interface for the survey form and course catalog. Utilized Angular components, directives, and services to make the platform dynamic and responsive. Incorporated AJAX to asynchronously fetch data, enhancing the user experience by eliminating full-page reloads.</li>
+        
+        <li><strong>Styling with HTML & CSS:</strong> Leveraged HTML5 and CSS3 features to make the interface visually appealing and intuitive. Ensured that the layout was mobile-responsive and accessible across different devices.</li>
+        
+        <li><strong>Backend with Flask and Python:</strong> Flask, a lightweight Python web framework, was chosen for its simplicity and extensibility. Developed RESTful routes, integrated with Angular via REST APIs, and managed session data for user authentication and course selections.</li>
+        
+        <li><strong>Database Integration using SQL Server:</strong> Used SQL Server as the primary database to store course data, student information, and survey results. Designed an efficient database schema, implemented stored procedures, and managed data transactions with Flask's ORM layer.</li>
+
+        <li><strong>Integrating WordPress:</strong> To make content management easier for department administrators, integrated WordPress modules into the platform. This allowed for easy updates to course information, news, and other relevant content without the need for technical intervention.</li>
+
+        <li><strong>Containerization with Docker:</strong> To ensure consistency across development, staging, and production environments, the application was containerized using Docker. This made sure that the app ran uniformly, regardless of where it was deployed.</li>
+
+        <li><strong>Kubernetes for Orchestration:</strong> With the aim of ensuring high availability and managing containers at scale, Kubernetes was used. It managed the deployment, scaling, and networking of the application, especially beneficial when deploying to cloud environments.</li>
+
+        <li><strong>Deployment on AWS:</strong> Leveraged AWS services like S3 for storing static assets, EC2 for running the application instances, and Elastic Beanstalk for orchestration. AWS provided a robust and scalable environment to handle growing user demands.</li>
+
+        <li><strong>Streaming with Kafka:</strong> To handle real-time data flow and ensure that the system could manage large influxes of survey responses, integrated Kafka. It acted as a message broker, efficiently managing communication between different parts of the application.</li>
+
+        <li><strong>Challenges faced:</strong>
+            <ul>
+                <li>Integration with WordPress modules required a deep understanding of WP internals.</li>
+                <li>Scaling the application using Kubernetes presented a learning curve, especially ensuring that the services communicated seamlessly within the cluster.</li>
+                <li>Performance tuning of the SQL Server to handle concurrent student accesses during peak times.</li>
+            </ul>
+        </li>
+
         <li><a href="https://youtu.be/_x4OvbuAFi0">Link to the project video</a></li>
-    </ul>
+    </ol>
 </div>
+
 
 <!-- Project 3 -->
 <div class="project-item">
